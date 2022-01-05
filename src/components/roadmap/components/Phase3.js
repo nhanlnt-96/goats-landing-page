@@ -1,8 +1,8 @@
 import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import Img1 from "../../../assets/imgs/roadmapPhase3Img1.jpeg";
-import Img2 from "../../../assets/imgs/roadmapPhase3Img2.jpeg";
-import Img3 from "../../../assets/imgs/roadmapPhase3Img3.jpeg";
+// import Img1 from "../../../assets/imgs/roadmapPhase3Img1.jpeg";
+// import Img2 from "../../../assets/imgs/roadmapPhase3Img2.jpeg";
+// import Img3 from "../../../assets/imgs/roadmapPhase3Img3.jpeg";
 import {roadmapPhase3Data} from "../../../configs/roadmapPhase3Data";
 import {BiRightArrowAlt} from "react-icons/all";
 import ScrollDown from "../../../assets/gifs/scrollDown.gif";
@@ -33,19 +33,19 @@ export const Phase3 = () => {
               <Col data-aos="fade-down" className="img-top-side d-flex justify-content-center align-items-center">
                 <div className="img-item d-flex justify-content-center align-items-center">
                   <div className="img">
-                    <img src={Img1} alt="roadmap-phase-3"/>
+                    {/*<img src={Img1} alt="roadmap-phase-3"/>*/}
                   </div>
                 </div>
               </Col>
               <Col className="img-bottom-side">
                 <div data-aos="fade-down" className="img-item d-flex justify-content-center align-items-center">
                   <div className="img">
-                    <img src={Img2} alt="roadmap-phase-3"/>
+                    {/*<img src={Img2} alt="roadmap-phase-3"/>*/}
                   </div>
                 </div>
                 <div data-aos="fade-down" className="img-item d-flex justify-content-center align-items-center">
                   <div className="img">
-                    <img src={Img3} alt="roadmap-phase-3"/>
+                    {/*<img src={Img3} alt="roadmap-phase-3"/>*/}
                   </div>
                 </div>
               </Col>

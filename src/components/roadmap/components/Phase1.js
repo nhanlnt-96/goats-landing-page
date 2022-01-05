@@ -1,9 +1,9 @@
 import {Col, Container, Row} from "react-bootstrap";
 import React from "react";
 import {roadmapPhase1Data} from "../../../configs/roadmapPhase1Data";
-import Img1 from '../../../assets/imgs/roadmapPhase1Img1.jpeg'
-import Img2 from '../../../assets/imgs/roadmapPhase1Img2.jpeg'
-import Img3 from '../../../assets/imgs/roadmapPhase1Img3.jpeg'
+// import Img1 from '../../../assets/imgs/roadmapPhase1Img1.jpeg'
+// import Img2 from '../../../assets/imgs/roadmapPhase1Img2.jpeg'
+// import Img3 from '../../../assets/imgs/roadmapPhase1Img3.jpeg'
 import {BiRightArrowAlt} from "react-icons/all";
 import ScrollDown from "../../../assets/gifs/scrollDown.gif";
 
@@ -28,13 +28,13 @@ export const Phase1 = () => {
         <Row className="phase-two-col-content">
           <Col xl={6} lg={5} md={4} sm={12} className="content-img d-flex justify-content-center align-items-center">
             <Row className="content-img-container">
-              <Col className="img-left-side">
-                <img data-aos="zoom-in" src={Img1} alt="roadmap-phase-1"/>
-                <img data-aos="zoom-in" src={Img2} alt="roadmap-phase-1"/>
-              </Col>
-              <Col className="img-right-side">
-                <img data-aos="zoom-in" src={Img3} alt="roadmap-phase-1"/>
-              </Col>
+              {/*<Col className="img-left-side">*/}
+              {/*  <img data-aos="zoom-in" src={Img1} alt="roadmap-phase-1"/>*/}
+              {/*  <img data-aos="zoom-in" src={Img2} alt="roadmap-phase-1"/>*/}
+              {/*</Col>*/}
+              {/*<Col className="img-right-side">*/}
+              {/*  <img data-aos="zoom-in" src={Img3} alt="roadmap-phase-1"/>*/}
+              {/*</Col>*/}
             </Row>
           </Col>
           <Col data-aos="fade-up" xl={6} lg={7} md={8} sm={12}

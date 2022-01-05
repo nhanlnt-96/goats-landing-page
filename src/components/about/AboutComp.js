@@ -11,7 +11,7 @@ const AboutComp = () => {
         <Container className="about-comp">
             <Container className="about-comp-container">
                 <Row className="about-comp-items">
-                    <Col data-aos="fade-right" xxl={6} lg={8} md={12} sm={12}
+                    <Col data-aos="fade-right" xxl={7} lg={8} md={12} sm={12}
                          className="content-item d-flex flex-column justify-content-center align-items-center">
                         <h6 className="comp-primary-title">ABOUT</h6>
                         <div className="content-desc comp-border-neon-shadow">
@@ -22,15 +22,14 @@ const AboutComp = () => {
                             }
                         </div>
                     </Col>
-                    <Col data-aos="zoom-in" xxl={6} lg={4} md={12} sm={12}
+                    <Col data-aos="zoom-in" xxl={5} lg={4} md={12} sm={12}
                          className="content-img d-flex justify-content-center align-items-center">
-                        <img src={AboutUsImg} alt="metavs-about-us"/>
+                        <img src={AboutUsImg} alt="dope-goats-about-us"/>
                     </Col>
                 </Row>
                 <Row data-aos="fade-up" className="about-comp-scroll d-flex flex-column justify-content-center align-items-center">
-                    <p className="scroll-title">METAVS IS A 3 PHASE PROJECT</p>
                     <div className="scroll-img">
-                        <img src={ScrollDown} alt="metavs-scroll-down"/>
+                        <img src={ScrollDown} alt="dope-goats-scroll-down"/>
                     </div>
                 </Row>
             </Container>

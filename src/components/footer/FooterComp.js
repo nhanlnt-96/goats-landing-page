@@ -1,7 +1,7 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import {FaFacebookF, FaInstagram, SiTwitter, SiYoutube} from "react-icons/all";
-import FooterImg from '../../assets/imgs/footerImg.svg';
+// import FooterImg from '../../assets/imgs/footerImg.svg';
 
 import './FooterComp.scss';
 
@@ -31,9 +31,9 @@ const FooterComp = () => {
           </Col>
           <Col data-aos="fade-right" lg={6} md={6} sm={12} className="content-right-side d-flex justify-content-center
             align-items-center">
-            <div className="footer-img">
-              <img src={FooterImg} alt="metavs-footer"/>
-            </div>
+            {/*<div className="footer-img">*/}
+            {/*  <img src={FooterImg} alt="metavs-footer"/>*/}
+            {/*</div>*/}
           </Col>
         </Row>
       </Container>
