@@ -16,7 +16,7 @@ const BannerComp = () => {
       <Container className="banner-comp-container d-flex flex-column justify-content-center align-items-center">
         <h1 data-aos="fade-down" className="banner-comp-title">WELCOME TO<br/>"dope goats"<br/>COLLECTION</h1>
         <Row className="banner-comp-content">
-          <div data-aos="fade-left" lg={5} md={5} sm={12}
+          <div data-aos="fade-left"
                className="banner-comp-btn d-flex flex-column justify-content-center align-items-center">
             <button className="comp-primary-btn">SHOP NOW
               <BiRightArrowAlt className="comp-primary-btn-icon"/>

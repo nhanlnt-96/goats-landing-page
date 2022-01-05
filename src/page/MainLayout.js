@@ -7,6 +7,7 @@ import RarityComp from "../components/rarity/RarityComp";
 import FaqsComp from "../components/faqs/FaqsComp";
 import TeamComp from "../components/team/TeamComp";
 import FooterComp from "../components/footer/FooterComp";
+import CollectionComp from "../components/collection/CollectionComp";
 
 const MainLayout = () => {
   return (
@@ -16,6 +17,9 @@ const MainLayout = () => {
       </Row>
       <Row>
         <AboutComp/>
+      </Row>
+      <Row>
+        <CollectionComp/>
       </Row>
       {/*<Row>*/}
       {/*  <RoadmapComp/>*/}

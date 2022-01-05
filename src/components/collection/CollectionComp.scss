@@ -1,0 +1,67 @@
+@import "../../styles/variables";
+@import "../../styles/rwd";
+
+.collection-comp {
+  background-color: #000123;
+
+  &-title {
+    text-align: center;
+    margin: $margin-top-primary 0;
+  }
+
+  &-btn {
+    margin-top: $margin-top-primary;
+  }
+}
+
+.collection-comp-content .img-container {
+  @include flex-center;
+  flex-direction: row;
+
+  .item {
+    width: 250px;
+    height: 250px;
+    background: url("../../assets/gifs/circleAnimate.gif") no-repeat center;
+    background-size: 100% 100%;
+    @include flex-center;
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    img {
+      width: 70%;
+      border-radius: 100%;
+    }
+
+    @include mobile {
+      &:not(:last-child) {
+        margin-right: unset;
+        margin-bottom: 20px;
+      }
+    }
+
+    @include tablet {
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  @include mobile {
+    flex-direction: column;
+    &:not(:first-child) {
+      margin-top: 20px;
+    }
+  }
+}
+
+.collection-comp-scroll {
+  .scroll-img {
+    width: 80px;
+    margin-top: $margin-top-primary;
+
+    img {
+      width: 100%;
+    }
+  }
+}

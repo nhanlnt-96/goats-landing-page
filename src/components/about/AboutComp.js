@@ -1,6 +1,6 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
-import {aboutUseData} from "../../configs/aboutUseData";
+import {aboutUsData} from "../../configs/aboutUsData";
 import AboutUsImg from '../../assets/imgs/aboutUs.png';
 import ScrollDown from "../../assets/gifs/scrollDown.gif";
 
@@ -16,7 +16,7 @@ const AboutComp = () => {
                         <h6 className="comp-primary-title">ABOUT</h6>
                         <div className="content-desc comp-border-neon-shadow">
                             {
-                                aboutUseData.map((val, index) => (
+                                aboutUsData.map((val, index) => (
                                     <p key={index} className="content comp-content-box">{val}</p>
                                 ))
                             }

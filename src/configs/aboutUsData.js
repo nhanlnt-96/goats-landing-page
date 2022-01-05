@@ -1,2 +1,2 @@
-export const aboutUseData = ["Dope Goats Club are a dope collection of 2,222 goats designed by upcoming artist" +
+export const aboutUsData = ["Dope Goats Club are a dope collection of 2,222 goats designed by upcoming artist" +
 " SipTee. Not only do these cuddly goats have special abilities that can only be unlocked if you are in the club, but all holders who mint two goats will receive a free baby goat on drop day. These will be the rarest of our collection. Stay tuned for giveaways and early"]

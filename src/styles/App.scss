@@ -47,6 +47,9 @@
   color: #ffffff;
   font-size: 2.5rem;
   font-family: TTOctoSquaresRegular, sans-serif;
+  @include mobile {
+    font-size: 2rem;
+  }
 }
 
 .comp-border-neon-shadow {
