@@ -19,12 +19,6 @@ const RarityComp = () => {
             <img src={ScrollDown} alt="metavs-scroll-down"/>
           </div>
         </Row>
-        <RarityTimeline/>
-        <Row data-aos="fade-down" className="rarity-comp-scroll d-flex flex-column justify-content-center align-items-center">
-          <div className="scroll-img">
-            <img src={ScrollDown} alt="metavs-scroll-down"/>
-          </div>
-        </Row>
       </Container>
     </Container>
   );

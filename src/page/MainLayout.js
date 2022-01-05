@@ -21,11 +21,11 @@ const MainLayout = () => {
       <Row>
         <CollectionComp/>
       </Row>
+      <Row>
+        <RarityComp/>
+      </Row>
       {/*<Row>*/}
       {/*  <RoadmapComp/>*/}
-      {/*</Row>*/}
-      {/*<Row>*/}
-      {/*  <RarityComp/>*/}
       {/*</Row>*/}
       {/*<Row>*/}
       {/*  <FaqsComp/>*/}
