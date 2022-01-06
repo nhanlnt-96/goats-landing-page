@@ -27,9 +27,9 @@ const MainLayout = () => {
       <Row>
         <RoadmapComp/>
       </Row>
-      {/*<Row>*/}
-      {/*  <FaqsComp/>*/}
-      {/*</Row>*/}
+      <Row>
+        <FaqsComp/>
+      </Row>
       {/*<Row>*/}
       {/*  <TeamComp/>*/}
       {/*</Row>*/}

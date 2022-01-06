@@ -24,9 +24,12 @@ const FaqsComp = () => {
                     <img src={QuestionImg} alt="faqs-metavs"/>
                     <p className="question">{val.question}</p>
                   </div>
-                  <div data-aos="fade-left" className="item-answer">
-                    <img src={AnswerImg} alt="faqs-metavs"/>
-                    <p className="answer">{val.answer}</p>
+                  <div className="answer-container d-flex justify-content-end">
+                    <div data-aos="fade-left" className="item-answer">
+                      <img src={AnswerImg} alt="faqs-metavs"/>
+                      <p className="answer"
+                         style={{fontSize: (index === faqsData.length - 1) && '2.2rem'}}>{val.answer}</p>
+                    </div>
                   </div>
                 </div>
               </div>

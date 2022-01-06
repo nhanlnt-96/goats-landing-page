@@ -33,7 +33,7 @@
   }
 
   &-detail {
-    width: 50%;
+    width: 100%;
     @include mobile {
       width: 100%;
       padding: unset;
@@ -44,6 +44,8 @@
   }
 
   &-question {
+    width: 40%;
+
     img {
       transform: scaleX(-1) rotate(0deg);
     }
@@ -57,17 +59,27 @@
         font-size: 1.6rem;
       }
     }
+
+    @include mobile {
+      width: 100%;
+    }
   }
 
   &-answer {
+    width: 55%;
     margin-top: $margin-top-secondary;
 
     .answer {
+      color: #ffffff;
       font-size: 1.8rem;
       z-index: 1;
       @include mobile {
         font-size: 1.3rem;
       }
+    }
+
+    @include mobile {
+      width: 100%;
     }
   }
 
