@@ -12,28 +12,28 @@ import CollectionComp from "../components/collection/CollectionComp";
 const MainLayout = () => {
   return (
     <Container fluid className="main-layout" style={{overflow: "hidden"}}>
-      <Row>
+      <Row id="home">
         <BannerComp/>
       </Row>
-      <Row>
+      <Row id="about">
         <AboutComp/>
       </Row>
-      <Row>
+      <Row id="collection">
         <CollectionComp/>
       </Row>
-      <Row>
+      <Row id="rarity">
         <RarityComp/>
       </Row>
-      <Row>
+      <Row id="roadmap">
         <RoadmapComp/>
       </Row>
-      <Row>
+      <Row id="faqs">
         <FaqsComp/>
       </Row>
-      <Row>
+      <Row id="team">
         <TeamComp/>
       </Row>
-      <Row>
+      <Row id="footer">
         <FooterComp/>
       </Row>
     </Container>

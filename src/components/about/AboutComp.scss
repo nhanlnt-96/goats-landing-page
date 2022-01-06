@@ -3,16 +3,20 @@
 
 .about-comp {
   background-color: #000123;
+  min-height: 100vh;
 
   &-title {
     text-align: center;
     margin: $margin-top-primary 0;
   }
+
+  &-items {
+    min-height: calc(100vh - 88px - 80px);
+  }
 }
 
 .about-comp-items .content-item {
   .content-desc {
-    margin-top: $margin-top-primary;
     text-align: center;
     width: 80%;
 

@@ -3,6 +3,7 @@
 
 .rarity-comp {
   background-color: #000123;
+  min-height: 100vh;
 
   &-title {
     text-align: center;
@@ -14,6 +15,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
     @include mobile {
       grid-template-columns: repeat(1, 1fr);
       grid-gap: 15px;
@@ -26,6 +29,8 @@
 }
 
 .rarity-comp-score {
+  min-height: calc(100vh - 88px - 80px);
+
   .content-items .item {
     background-color: #D0D2D7;
     width: 100%;

@@ -1,30 +1,30 @@
 export const headerMenuData = [
   {
     label:"ABOUT",
-    path:"#"
+    path:"#about"
   },
   {
     label:"COLLECTION",
-    path:"#"
+    path:"#collection"
   },
   {
     label:"RARITY",
-    path:"#"
+    path:"#rarity"
   },
   {
     label:"ROADMAP",
-    path:"#"
+    path:"#roadmap"
   },
   {
-    label:"FAQ",
-    path:"#"
+    label:"FAQS",
+    path:"#faqs"
   },
   {
     label:"TEAM",
-    path:"#"
+    path:"#team"
   },
   {
     label:"CONTACT",
-    path:"#"
+    path:"#contact"
   },
 ]

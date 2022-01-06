@@ -18,8 +18,8 @@ const RoadmapComp = () => {
         <Row className="roadmap-comp-content">
           {
             roadmapData.map((val, index) => (
-              <div
-                className={`item-container d-flex align-items-center ${(index % 2 === 0) ? 'justify-content-start' : 'justify-content-end'}`}>
+              <div data-aos={(index % 2 === 0) ? 'fade-left' : 'fade-right'}
+                   className={`item-container d-flex align-items-center ${(index % 2 === 0) ? 'justify-content-start' : 'justify-content-end'}`}>
                 <div
                   className={`item d-flex flex-row justify-content-center align-items-center ${(index % 2 === 0) ? '' : 'content-flip'}`}>
                   <div className="box message-body d-flex justify-content-center align-items-center text-center">

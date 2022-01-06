@@ -19,26 +19,26 @@ const CollectionComp = () => {
         </Row>
         <Row className="collection-comp-content">
           <div className="img-container">
-            <div className="item">
+            <div data-aos="zoom-in" className="item">
               <img src={CollectionImg1} alt="dope-goats-collections"/>
             </div>
           </div>
           <div className="img-container">
-            <div className="item">
+            <div data-aos="zoom-in" className="item">
               <img src={CollectionImg2} alt="dope-goats-collections"/>
             </div>
-            <div className="item">
+            <div data-aos="zoom-in" className="item">
               <img src={CollectionImg3} alt="dope-goats-collections"/>
             </div>
           </div>
           <div className="img-container">
-            <div className="item">
+            <div data-aos="zoom-in" className="item">
               <img src={CollectionImg1} alt="dope-goats-collections"/>
             </div>
-            <div className="item">
+            <div data-aos="zoom-in" className="item">
               <img src={CollectionImg3} alt="dope-goats-collections"/>
             </div>
-            <div className="item">
+            <div data-aos="zoom-in" className="item">
               <img src={CollectionImg2} alt="dope-goats-collections"/>
             </div>
           </div>
