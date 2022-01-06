@@ -1,5 +1,5 @@
 import React from 'react';
-import {Col, Container, Row} from "react-bootstrap";
+import {Container, Row} from "react-bootstrap";
 import HeaderComp from "../header/HeaderComp";
 import {BiRightArrowAlt} from "react-icons/all";
 import ScrollDown from '../../assets/gifs/scrollDown.gif';
@@ -24,7 +24,7 @@ const BannerComp = () => {
           </div>
         </Row>
         <Row className="banner-comp-scroll">
-          <img src={ScrollDown} alt="metavs-scroll-down"/>
+          <img src={ScrollDown} alt="dope-goats-scroll-down"/>
         </Row>
       </Container>
     </Container>

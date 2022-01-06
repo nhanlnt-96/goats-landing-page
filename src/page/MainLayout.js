@@ -24,9 +24,9 @@ const MainLayout = () => {
       <Row>
         <RarityComp/>
       </Row>
-      {/*<Row>*/}
-      {/*  <RoadmapComp/>*/}
-      {/*</Row>*/}
+      <Row>
+        <RoadmapComp/>
+      </Row>
       {/*<Row>*/}
       {/*  <FaqsComp/>*/}
       {/*</Row>*/}

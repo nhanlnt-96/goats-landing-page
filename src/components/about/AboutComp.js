@@ -10,10 +10,13 @@ const AboutComp = () => {
     return (
         <Container className="about-comp">
             <Container className="about-comp-container">
+                <Row data-aos="fade-up"
+                     data-aos-anchor-placement="top-bottom" className="about-comp-title d-flex justify-content-center align-items-center">
+                    <h6 className="comp-primary-title">ABOUT</h6>
+                </Row>
                 <Row className="about-comp-items">
                     <Col data-aos="fade-right" xxl={7} lg={8} md={12} sm={12}
                          className="content-item d-flex flex-column justify-content-center align-items-center">
-                        <h6 className="comp-primary-title">ABOUT</h6>
                         <div className="content-desc comp-border-neon-shadow">
                             {
                                 aboutUsData.map((val, index) => (

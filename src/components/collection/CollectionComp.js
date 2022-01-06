@@ -54,7 +54,7 @@ const CollectionComp = () => {
         <Row data-aos="fade-down"
              className="collection-comp-scroll d-flex flex-column justify-content-center align-items-center">
           <div className="scroll-img">
-            <img src={ScrollDown} alt="metavs-scroll-down"/>
+            <img src={ScrollDown} alt="dope-goats-scroll-down"/>
           </div>
         </Row>
       </Container>
