@@ -33,9 +33,9 @@ const MainLayout = () => {
       <Row>
         <TeamComp/>
       </Row>
-      {/*<Row>*/}
-      {/*  <FooterComp/>*/}
-      {/*</Row>*/}
+      <Row>
+        <FooterComp/>
+      </Row>
     </Container>
   );
 };

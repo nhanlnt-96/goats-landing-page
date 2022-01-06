@@ -1,7 +1,7 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import {FaFacebookF, FaInstagram, SiTwitter, SiYoutube} from "react-icons/all";
-// import FooterImg from '../../assets/imgs/footerImg.svg';
+import FooterImg from '../../assets/imgs/footerImg.svg';
 
 import './FooterComp.scss';
 
@@ -18,8 +18,8 @@ const FooterComp = () => {
             <div className="contact-desc">
               <div className="contact-direct">
                 <p className="contact-item">If you encounter any problem,</p>
-                <p className="contact-item">contact us on: MetaVS.com</p>
-                <p className="email-item">MetaVS@gmail.com</p>
+                <p className="contact-item">contact us on: dopegoats.com</p>
+                <p className="email-item">dopegoats@gmail.com</p>
               </div>
               <div className="contact-social d-flex align-items-center">
                 <SiTwitter/>
@@ -31,9 +31,9 @@ const FooterComp = () => {
           </Col>
           <Col data-aos="fade-right" lg={6} md={6} sm={12} className="content-right-side d-flex justify-content-center
             align-items-center">
-            {/*<div className="footer-img">*/}
-            {/*  <img src={FooterImg} alt="metavs-footer"/>*/}
-            {/*</div>*/}
+            <div className="footer-img">
+              <img src={FooterImg} alt="dope-goats-footer"/>
+            </div>
           </Col>
         </Row>
       </Container>
