@@ -10,65 +10,89 @@
   }
 }
 
-.roadmap-comp-content .item-container .item {
-  width: 50%;
-
-  .box {
-    width: 70%;
-    min-height: 150px;
-    border-radius: 30px;
-    background-color: #D0D2D7;
-    color: #fff;
-    padding: 20px;
-    position: relative;
-    margin-right: 10px;
-
-    &.message-body:after {
-      content: " ";
-      position: absolute;
-      right: -10px;
-      bottom: 50%;
-      transform: translateY(50%);
-      border-top: 10px solid transparent;
-      border-right: none;
-      border-left: 10px solid #D0D2D7;
-      border-bottom: 10px solid transparent;
-    }
+.roadmap-comp-content .item-container {
+  &:not(:last-child) {
+    margin-bottom: 24px;
   }
 
-  .message-body {
-    .content {
-      font-family: MuliBold, sans-serif;
-      color: #000000;
-      font-size: 1.7rem;
+  .item {
+    @include mobile {
+      width: 100%;
     }
-  }
-
-  .circle-percent {
-    height: 100%;
-    flex-direction: column;
-    display: grid;
-    grid-template-rows: 2fr 1fr 1fr 1fr;
-
-    .arrow img {
-      width: 50px;
-      transform: scaleX(-1);
+    @include tablet {
+      width: 100%;
+    }
+    @include desktop {
+      width: 70%;
+    }
+    @include wide-desktop {
+      width: 60%;
     }
 
-    .circle-border {
-      margin-left: 10px;
+    .box {
+      width: 70%;
+      min-height: 150px;
+      border-radius: 30px;
+      background-color: #D0D2D7;
+      color: #fff;
+      padding: 20px;
+      position: relative;
+      margin-right: 10px;
 
-      &-container {
-        width: 60px;
-        height: 60px;
-        border-radius: 100%;
-        background-color: #363754;
+      &.message-body:after {
+        content: " ";
+        position: absolute;
+        right: -10px;
+        bottom: 50%;
+        transform: translateY(50%);
+        border-top: 10px solid transparent;
+        border-right: none;
+        border-left: 10px solid #D0D2D7;
+        border-bottom: 10px solid transparent;
+      }
+    }
 
-        .percent {
-          color: #fdf7f5;
-          font-weight: bold;
-          font-size: 1.3rem;
-          font-family: MuliBold, sans-serif;
+    .message-body {
+      .content {
+        font-family: MuliBold, sans-serif;
+        color: #000000;
+        font-size: 1.7rem;
+        @include smallScreen {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    .circle-percent {
+      height: 150px;
+
+      .circle-percent-container {
+        height: 100%;
+
+        .arrow img {
+          width: 50px;
+          transform: scaleX(-1);
+        }
+
+        .circle-border {
+          margin-left: 10px;
+
+          &-container {
+            width: 60px;
+            height: 60px;
+            border-radius: 100%;
+            background-color: #363754;
+
+            .percent {
+              color: #fdf7f5;
+              font-weight: bold;
+              font-size: 1.3rem;
+              font-family: MuliBold, sans-serif;
+              @include smallScreen{
+                font-size: 1.1rem;
+              }
+            }
+          }
         }
       }
     }

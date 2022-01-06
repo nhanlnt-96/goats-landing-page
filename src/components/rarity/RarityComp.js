@@ -1,13 +1,13 @@
 import React from 'react';
 import {Container, Row} from "react-bootstrap";
 import ScrollDown from "../../assets/gifs/scrollDown.gif";
-import {RarityScore, RarityTimeline} from "./components";
+import {RarityScore} from "./components";
 
 import './RarityComp.scss';
 
 const RarityComp = () => {
   return (
-    <Container fluid className="rarity-comp comp-height">
+    <Container fluid className="rarity-comp">
       <Container className="rarity-comp-container">
         <Row data-aos="fade-up"
              data-aos-anchor-placement="top-bottom" className="rarity-comp-title d-flex justify-content-center align-items-center">
