@@ -30,9 +30,9 @@ const MainLayout = () => {
       <Row>
         <FaqsComp/>
       </Row>
-      {/*<Row>*/}
-      {/*  <TeamComp/>*/}
-      {/*</Row>*/}
+      <Row>
+        <TeamComp/>
+      </Row>
       {/*<Row>*/}
       {/*  <FooterComp/>*/}
       {/*</Row>*/}

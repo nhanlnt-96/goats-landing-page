@@ -2,7 +2,7 @@
 @import "../../styles/rwd";
 
 .team-comp {
-  //background: url("../../assets/imgs/bgTeam.jpeg") no-repeat center;
+  background: url("../../assets/imgs/bgTeam.jpeg") no-repeat center;
   background-size: cover;
 
   &-title {
@@ -73,6 +73,13 @@
       min-height: 25px;
 
       .name {
+        color: #000000;
+        font-weight: bold;
+        font-size: 1.7rem;
+      }
+
+      .title {
+        margin-top: 12px;
         font-weight: bold;
         font-family: TTOctoSquaresMedium, sans-serif;
         color: #ffffff;
