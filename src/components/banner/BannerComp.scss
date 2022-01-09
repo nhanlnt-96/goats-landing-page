@@ -46,6 +46,12 @@
     z-index: 1;
   }
 
+  &-btn {
+    @include mobile {
+      margin-top: 24px;
+    }
+  }
+
   &-title {
     color: #000000;
   }
