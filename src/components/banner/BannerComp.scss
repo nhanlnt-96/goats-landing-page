@@ -19,6 +19,26 @@
     min-height: calc(100vh - 61px);
     position: relative;
   }
+
+  &-content {
+    width: 100%;
+
+    .mint-connected {
+      width: 60%;
+    }
+
+    @include mobile {
+      .mint-connected {
+        padding: 0;
+        width: 100%;
+
+        .mint-box {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+      }
+    }
+  }
 }
 
 .banner-comp-container .banner-comp {
