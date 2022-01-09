@@ -292,7 +292,9 @@ const BannerComp = () => {
             ) : (
               <div data-aos="fade-left"
                    className="banner-comp-btn d-flex flex-column justify-content-center align-items-center">
-                <button onClick={onConnectBtnClick} className="comp-primary-btn">SHOP NOW
+                <button onClick={onConnectBtnClick} className="comp-primary-btn">
+                  <span className="name">SHOP NOW</span>
+                  <span className="sub-text">CONNECT WALLET</span>
                   <BiRightArrowAlt className="comp-primary-btn-icon"/>
                 </button>
               </div>
