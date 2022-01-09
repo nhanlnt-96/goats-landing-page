@@ -24,6 +24,24 @@
   border-radius: 25px;
   border: none;
   outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .sub-text {
+    display: none;
+  }
+
+  &:hover {
+    box-shadow: #ff0f7b 2px 2px 30px 5px;
+    .name {
+      display: none;
+    }
+
+    .sub-text {
+      display: block;
+    }
+  }
 
   &-icon {
     background-color: #ffffff;
