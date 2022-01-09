@@ -3,6 +3,7 @@
 
 .collection-comp {
   background-color: #000123;
+  padding: 24px 0;
 
   &-title {
     text-align: center;
@@ -10,7 +11,7 @@
   }
 
   &-btn {
-    margin-top: $margin-top-primary;
+    margin-top: $margin-top-primary !important;
   }
 }
 

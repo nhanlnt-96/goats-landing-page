@@ -12,7 +12,7 @@
 
   &-score {
     width: 100%;
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     align-items: center;

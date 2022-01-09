@@ -45,7 +45,7 @@ const CollectionComp = () => {
         </Row>
         <Row className="collection-comp-btn">
           <div data-aos="fade-down"
-               className="banner-comp-btn d-flex flex-column justify-content-center align-items-center">
+               className="collection-comp-btn d-flex flex-column justify-content-center align-items-center">
             <button className="comp-primary-btn">SHOP MORE
               <BiRightArrowAlt className="comp-primary-btn-icon"/>
             </button>
