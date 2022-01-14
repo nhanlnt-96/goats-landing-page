@@ -9,12 +9,12 @@ export const teamData = [
     avatar: AvaTeam1
   },
   {
-    title: "PROMOTION",
+    title: "ARTIST",
     name: "SIPTEE",
     avatar: AvaTeam2
   },
   {
-    title: "ARTIST",
+    title: "PROMOTION",
     name: "KING GREENWOOD",
     avatar: AvaTeam3
   },
