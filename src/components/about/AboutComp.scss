@@ -3,62 +3,93 @@
 
 .about-comp {
   background-color: #000123;
-  min-height: 100vh;
-  padding: 24px 0;
+  padding-top: 24px;
 
   &-title {
     text-align: center;
     margin: $margin-top-primary 0;
   }
 
-  &-items {
-    min-height: calc(100vh - 88px - 80px);
+  @include mobile {
+    &-container {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
   }
 }
 
-.about-comp-items .content-item {
-  .content-desc {
-    text-align: center;
-    width: 80%;
+.about-comp-items .about-content-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 12px;
 
-    .content {
-      font-size: 2rem;
-      line-height: 3rem;
-    }
-
-    @include mobile {
+  .first-img, .img-collection {
+    img {
       width: 100%;
-      .content {
-        font-size: 1.5rem;
-        line-height: 2rem;
-      }
+      height: 100%;
+      object-fit: cover;
     }
+  }
 
-    @include tablet {
-      width: 100%;
-    }
+  .img-collection, .third-paragraph {
+    grid-column: 3/7;
+  }
+
+  .first-paragraph {
+    background-color: #7183D6;
+  }
+
+  .second-paragraph {
+    background-color: #363754;
+  }
+
+  .third-paragraph {
+    background-color: #D0D2D7;
+  }
+
+  .first-img {
+    grid-row: 2/4;
+    grid-column: 1/3;
+  }
+
+  .img-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .first-paragraph, .second-paragraph, .third-paragraph {
+    padding: 24px;
+  }
+
+  .content-item .content {
+    color: #ffffff;
+    font-size: 1.7rem;
   }
 
   @include mobile {
-    order: 2;
-  }
-  @include tablet {
-    order: 2;
-  }
-}
-
-.about-comp-items {
-  .content-img {
-    img {
-      width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    .first-paragraph, .second-paragraph, .third-paragraph, .img-collection, .first-img {
+      grid-column: unset;
     }
-
-    @include mobile {
-      margin-bottom: $margin-top-primary;
+    .first-img {
+      grid-row: unset;
     }
-
-    @include tablet {
-      margin-bottom: $margin-top-primary;
+  }
+  @include desktop {
+    .first-paragraph {
+      grid-column: 1/4;
+    }
+    .second-paragraph {
+      grid-column: 4/7;
+    }
+  }
+  @include wide-desktop {
+    .first-paragraph {
+      grid-column: 1/3;
+    }
+    .second-paragraph {
+      grid-column: 3/7;
     }
   }
 }

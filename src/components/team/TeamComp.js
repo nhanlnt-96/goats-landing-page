@@ -20,7 +20,7 @@ const TeamComp = () => {
         <Row className="team-comp-content d-flex justify-content-center align-items-center">
           {
             teamData.map((val, index) => (
-              <Col data-aos={(index % 2 === 0 ? "fade-up" : "fade-down")} lg={3} md={3} sm={12} key={index}
+              <Col data-aos={(index % 2 === 0 ? "fade-up" : "fade-down")} lg={3} md={4} sm={12} key={index}
                    className="item">
                 <div className="ava-img">
                   <img src={val.avatar} alt={val.title}/>
